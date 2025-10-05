@@ -1,0 +1,130 @@
+/* Navbar Styles */
+.app__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(25, 24, 6);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.app__navbar-logo img {
+  width: 150px;
+}
+
+.app__navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app__navbar-link {
+  margin: 0 1rem;
+}
+
+.app__navbar-link a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.app__navbar-link a:hover {
+  color: rgb(232, 188, 77);
+}
+
+.app__navbar-login {
+  display: flex;
+  align-items: center;
+}
+
+.app__navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 0.5s ease;
+  color: white;
+}
+
+.app__navbar-login a:hover {
+  color: rgb(232, 188, 77);
+}
+
+.app__navbar-divider {
+  width: 1px;
+  height: 30px;
+  background: white;
+  margin: 0 1rem;
+}
+
+/* Hamburger Menu Styles */
+.app__navbar-smallscreen {
+  display: none;
+}
+
+.app__navbar-hamburger {
+  color: white;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+/* Small Screen Overlay Styles */
+.app__navbar-smallscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(65, 51, 14);
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__navbar-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(241, 228, 228);
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.app__navbar-smallscreen-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.app__navbar-smallscreen-link {
+  margin: 1rem;
+}
+
+.app__navbar-smallscreen-link a {
+  color: rgb(247, 235, 235);
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.app__navbar-smallscreen-link a:hover {
+  color: rgb(232, 188, 77);
+}
+
+
+
+/* Media Query for Small Screen */
+@media screen and (max-width: 1150px) {
+  .app__navbar-links {
+    display: none;
+  }
+
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+}

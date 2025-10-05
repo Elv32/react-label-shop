@@ -1,0 +1,79 @@
+/* Chef2.css */
+.chef2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-images {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+  
+  .gallery-images::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery-card {
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .gallery-card img {
+    width: 180px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .arrow-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f6e8e8;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .info-container {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .chef-content {
+    margin-top: 20px;
+  }
+  
+  .opensans {
+    font-family: 'Open Sans', sans-serif;
+    color: #fffefe;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styles for small screens (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .gallery-card img {
+    width: 100%; /* Make the images take up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

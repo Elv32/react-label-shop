@@ -1,0 +1,27 @@
+/* Dashboard.js */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  .app__navbar-dashboard {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(25, 24, 6);
+    color: white;
+    border: 1px solid rgb(25, 24, 6);
+    border-radius: 5px;
+  }
+  
+  .dashboard-content {
+    text-align: center;
+  }
+  
+  .dashboard-content h2 {
+    margin-bottom: 20px;
+  }
+  

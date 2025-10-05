@@ -1,0 +1,20 @@
+/* SubHeading.css */
+.p__cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fdf6f6;
+    margin-bottom: 5px;
+  }
+  
+  .spoon__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .spoon1__img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }

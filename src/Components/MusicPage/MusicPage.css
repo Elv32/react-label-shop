@@ -1,0 +1,65 @@
+/* MusicPage.css */
+
+/* Global styles (optional) */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* MusicPage component styles */
+  .music-page {
+    text-align: center;
+  }
+  
+  .header1 {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Adjust the maximum height as needed */
+  }
+  
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Change the text color as needed */
+  }
+  
+  .music-entry {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap's primary color, change as needed */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
