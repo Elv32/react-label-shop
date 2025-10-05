@@ -1,4 +1,94 @@
-# Getting Started with Create React App
+# 🎵 React Label Shop
+
+A modern **Music Label and E-Commerce web application** built with React.  
+This project combines a sleek artist showcase with a full-featured online shop — demonstrating clean UI design, reusable components, and React best practices.
+
+---
+
+## 🚀 Overview
+**React Label Shop** was built to simulate the experience of managing a real music label and merchandise store.  
+It includes artist profiles, music previews, a shopping experience, and a checkout process — all designed for a smooth and modern user experience.
+
+---
+
+## ✨ Features
+
+### 🎨 Frontend Design
+- Fully responsive layout using **React + CSS Grid/Flexbox**
+- Dynamic navigation with **React Router**
+- Clean and modern user interface components  
+
+### 🛒 Shop System
+- Add, remove, and manage items in the cart  
+- Product grid and list views  
+- Integrated checkout page  
+
+### 👩‍🎤 Artist Section
+- Artist profile pages with photos and bios  
+- Gallery and special sections for featured talents  
+
+### 🔐 User Accounts
+- Registration and login pages  
+- Context-based state management for session and cart  
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools Used |
+|-----------|-------------|
+| **Frontend Framework** | React.js |
+| **Routing** | React Router |
+| **State Management** | Context API |
+| **Styling** | CSS Modules / Flexbox / Grid |
+| **Version Control** | Git & GitHub |
+| **Build Tool** | npm & react-scripts |
+
+---
+src/
+│
+├── Components/
+│   ├── Navbar/
+│   ├── Shop/
+│   ├── Footer/
+│   ├── LoginForm/
+│   ├── RegistrationForm/
+│   └── ...
+│
+├── container/
+│   ├── Header/
+│   ├── AboutUs/
+│   ├── Gallery/
+│   ├── Menu/
+│   └── ...
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Dashboard.jsx
+│   └── Membership.jsx
+│
+└── App.js
+
+## 🧠 Setup Instructions
+
+To run the project locally:
+# Clone the repository
+git clone https://github.com/Elv32/react-label-shop.git
+
+# Navigate into the project folder
+cd react-label-shop
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+Author
+
+Elizabeth Voyard
+💼 Computer Engineering + Tech Entrepreneur
+🌐  https://www.linkedin.com/elizabethvoyard| 🧠 Portfolio | ✉️ elisabethluciavoyard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
